@@ -562,6 +562,12 @@ hr {
         left: 18%;
     }
 }
+img#flag-vn{
+    width: 35px;
+}
 
+img#flag-au{
+    width: 31px;
+}
 
 /* end footer */
