@@ -1,0 +1,254 @@
+section {
+    padding: 60px 0px;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+    section.top {
+        padding: 135px 0;
+    }
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.btn.disabled, .btn:disabled {
+    opacity: 1!important;
+}
+/* menu */
+
+.logo {
+    width: 15%;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 1em 2em !important;
+    font-weight: 600;
+    color: #0f0f0f;
+    font-size: 15px;
+    transition: box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 3px solid #d40000;
+    color: #0f0f0f;
+    /*box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1), 8px 32px 32px rgba(0, 0, 0, 0.15), 8px 64px 64px rgba(0, 0, 0, 0.15);*/
+    transform: scale(1.05) translateY(-0.5rem);
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .logo {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .navbar {
+        padding: 0.5rem 5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {}
+
+
+/* end menu */
+
+
+/* about */
+
+.header-about__typo {
+    padding: 14% 0;
+}
+
+.header-about__images {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.header-about__images img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .header-about__images {
+        padding-top: 20%;
+    }
+}
+
+
+/* end about */
+
+
+/* description service */
+
+.description-service {
+    background-color: #FFF8F8;
+}
+
+.description-service img.img-service {
+    margin-right: 5%;
+}
+.description-service img.img-service-top {
+    margin-right: 8%;
+}
+.description-service img.img-service-main {
+    width: 260px;
+}
+
+.link-section2 .btn-readmore a {
+    border: 1px solid #d40000;
+    background-color: #d40000;
+    color: #FFF8F8;
+    border-radius: 25px;
+    transition: box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+}
+
+.link-section2 .btn-readmore a:hover {
+    background-color: #d40000;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1), 8px 32px 32px rgba(0, 0, 0, 0.15), 8px 64px 64px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05) translateY(-0.5rem);
+}
+
+.mb-7 {
+    margin-bottom: 7rem;
+}
+
+.pl-7{
+    padding-left: 30%;
+}
+.pl-8{
+    padding-left: 20%;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+    .pl-7{
+        padding-left: 20%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .pl-7{
+        padding-left: 0%;
+    }
+}
+@media screen and (max-width: 767px){
+    .pl-7{
+        padding-left: 0%;
+    }
+    .pl-8{
+        padding-left: 0%;
+    }
+}
+
+.text-introduce-service {
+    margin-right: 5%;
+    padding: 5% 0;
+}
+
+.text-introduce-service p {
+    margin-bottom: 0;
+}
+
+.img-center-hidden{
+    display: initial;
+}
+
+@media screen and (max-width: 767px){
+    .img-center-hidden{
+        display: none;
+    }
+}
+
+/* end description service */
+
+.section2-about__images {
+    width: 80%;
+    margin: auto;
+}
+
+.section2-about__images img {
+    width: 100%;
+}
+
+.section2-about__typo {
+    padding: 5% 0;
+}
+
+.section2-about__typo a {
+    transition: 0.6s;
+}
+
+.section2-about__typo a span {
+    color: #ff3d00;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 5px solid #ff3d00;
+    margin-right: 10px;
+}
+
+.section2-about__typo a img {
+    transition: 0.6s;
+    width: 5%;
+}
+
+.icon-read-more {
+    margin-left: 30px;
+    transition: 0.6s;
+}
+
+.section2-about__typo a:hover {
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.6s;
+}
+
+.btn-serviece {
+    width: 195px;
+}
+
+.mg-btn-service {
+    margin-right: 3%;
+}
+
+.mg-b-btn-service {
+    margin-bottom: 10%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .btn-readmore a {
+        width: 115%;
+    }
+    .btn-readmore {
+        margin-right: 3%;
+    }
+}
+
+
+/* client product */
+
+.home-product__title h3 span {
+    font-weight: 400;
+}
+
+.logo-product {
+    border: 2px solid #d40000;
+    padding: 4% 0;
+    border-radius: 70px;
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-product-responsive {
+        margin-bottom: 10%;
+    }
+}
+
+
+/* end client product */

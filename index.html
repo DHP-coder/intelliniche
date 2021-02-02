@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="./images/IntelliNiche_logo.png" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage - IntelliNiche</title>
+    <link rel="stylesheet" href="./boostrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/homepage.css" />
+
+    <link rel="stylesheet" href="./css/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top shadow ">
+        <a href="./index.html" class="navbar-brand" style="display: contents;"><img class="logo" src="./images/homepage/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+                <i class="fas fa-bars"></i>
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="./service.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./Careers.html">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Contact.html">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- end menu -->
+    <!-- banner -->
+    <section class="home-banner row text-white bg-black">
+
+        <div class="col-md-6 slider order-last d-flex flex-column">
+            <div id="demo" class="carousel slide mt-auto px-3" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="intro">
+                            <div class="text-intro">
+                                <h3>
+                                    We build digital products<br /><span>that power business</span>
+                                </h3>
+                                <p>
+                                    Our focus is the agile development of web, cloud, and mobile applications – and helping organizations create and sustain digital innovation.
+                                </p>
+                            </div>
+                            <a href="./service.html" type="button" class="btn bg-red text-white">Our services</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="intro">
+                            <div class="text-intro">
+                                <h3>
+                                    We work with clients<br /><span>across the globe</span>
+                                </h3>
+                                <p>
+                                    Our clients span across many industries, sizes and locations. Our mission is to build innovative digital products for leading organisations worldwidve.
+                                </p>
+                            </div>
+                            <a href="./service.html" type="button" class="btn bg-red text-white">Our services</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-6"></div>
+    </section>
+    <!-- end banner -->
+
+    <div class="container">
+        <!-- about -->
+        <section class="home-about row">
+            <div class="col-md-6">
+                <div class="home-about__typo">
+                    <h3><b>We’re a global team</b></h3>
+                    <p>
+                        IntelliNiche is headquartered in the VietNam, with regional operations in Europe and Asia. IntelliNiche is headquartered in the VietNam, with regional operations in Europe and Asia.
+                    </p>
+                    <!--<a href="./about.html"><span>Read more</span>-->
+                    <!--    <img src="./images/homepage/vector home.png" alt="vectorhome" /></a>-->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="home-about__images">
+                    <img src="./images/homepage/Vector 1.png" alt="vector1" id="vector1" />
+                    <img src="./images/homepage/Vector 2.png" alt="vector2" id="vector2" />
+                    <img src="./images/homepage/Vector 3.png" alt="vector2" id="vector3" />
+                    <img src="./images/homepage/home1.png" alt="home1" id="home1" />
+                    <img src="./images/homepage/home2.png" alt="home2" id="home2" />
+                </div>
+            </div>
+        </section>
+        <!-- end about -->
+        <!-- service -->
+        <section class="home-service" id="home-service">
+            <div class="text-center pb-5">
+                <h3><b>Our Services</b></h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-half-offset">
+                    <div class="service-title">
+                        <h5>Website Development</h5>
+                        <img src="./images/homepage/FE.png" alt="" style="width: 100px">
+                    </div>
+                    <div class="service-text">
+                        <b>Frontend Web Development</b>
+                        <p>
+                            As the user-facing part of a product, nailing the frontend is essential.
+                        </p>
+                        <b>Backend Web Development</b>
+                        <p>
+                            IntelliNiche specializes in complex backend web development, using sprint methodology and standards-based code to get applications to market quickly.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-2 col-half-offset col-down">
+                    <div class="service-title ">
+                        <h5>Mobile App Development</h5>
+                        <img src="./images/homepage/MB.png" alt="" style="width: 55px; margin-left: 15px;">
+                    </div>
+                    <div class="service-text">
+                        <p>Our expertise in custom mobile app development gives our clients the opportunity to pack incredible functionality into their customer’s palms.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-half-offset">
+                    <div class="service-title">
+                        <h5>Product <br> Design</h5>
+                        <img src="./images/homepage/design product.png" alt="" style="width: 50px">
+                    </div>
+                    <div class="service-text">
+                        <p>Our in-house designers have a breadth of experience in responsive design, we create functional products that look great on web, mobile and tablet devices.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-half-offset col-down">
+                    <div class="service-title">
+                        <h5>UX <br> Design</h5>
+                        <img src="./images/homepage/UX.png" alt="" style="width: 80px">
+                    </div>
+                    <div class="service-text">
+                        <p>Great applications are defined by a great user experience. At IntelliNiche we take UX design seriously, combining aesthetic design with data-driven research to inform user flow.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-half-offset">
+                    <div class="service-title">
+                        <h5>API Development Services</h5>
+                        <img src="./images/homepage/API.png" alt="" style="width: 100px; margin-left: 10px;">
+                    </div>
+                    <div class="service-text">
+                        <p>We specialize in developing enterprise-grade REST APIs that are easy to consume, well documented and truly reliable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end service -->
+        <!-- Our Client’s products -->
+        <!-- <section class="home-product text-center">
+            <div class="home-product__title pb-5">
+                <h3><b>Our Client’s products<br />were featured in</b></h3>
+            </div>
+            <div class="row logo-product">
+                <div class="col-md-3 col-sm-6">
+                    <img class="logo-product-responsive " src="./images/homepage/Forbes.png" alt="forbes" />
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="logo-product-responsive " src="./images/homepage/techcrunch.png" alt="tech" />
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="logo-product-responsive " src="./images/homepage/wsjlogo.png" alt="wsjlogo" />
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="logo-product-responsive " src="./images/homepage/BI_blue.png" alt="BI_blue" />
+                </div>
+            </div>
+        </section> -->
+        <!-- end Our Client’s products -->
+        <!-- client say -->
+        <!-- <section class="home-clients-say text-center">
+            <div class="home-clients-say__content">
+                <div class="pb-4">
+                    <h3><b>What our clients say?</b></h3>
+                </div>
+                <p class="text-left">
+                    We help leading brands worldwide drive digital innovation via rapid prototyping, iterative development, design thinking and agile devops. Our approach centers on creating business impact via a proven approach to identifying and delivering on digital opportunities.
+                </p>
+            </div>
+
+            <div class="page-content page-container" id="page-content">
+                <div class="padding">
+                    <div class="container-fluid">
+                        <div class="owl-carousel">
+                            <div class="item shadow rounded">
+                                <div class="top-clients-say d-flex flex-column">
+                                    <p>
+                                        <img src="./images/homepage/open.PNG" alt=""> Having worked with IntelliNiche on several projects, I've found their unique combination of hard-core engineering skills and solid business acumen to be a phenomenal
+                                        asset.
+                                        <img src="./images/homepage/close.PNG" alt="">
+                                    </p>
+                                    <div class="d-flex mt-auto">
+                                        <div class="mt-auto p-2"><img src="./images/homepage/SolarCity.png" alt="">
+                                        </div>
+
+
+                                        <div class="ml-auto p-2 text-right">
+
+                                            <span>John Witchel, SolarCity (former)</span><br>
+
+                                            <img class="img-star" src="./images/homepage/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item shadow rounded">
+                                <div class="top-clients-say d-flex flex-column">
+                                    <p>
+                                        <img src="./images/homepage/open.PNG" alt=""> I’ve worked with a lot of different teams, but IntelliNiche stands out because they really understand business and can collaborate with us - even challenge us - to build
+                                        better strategy and product.
+                                        <img src="./images/homepage/close.PNG" alt="">
+                                    </p>
+                                    <div class="d-flex mt-auto">
+                                        <div class="mt-auto p-2"><img src="./images/homepage/logo_vec_zoetis.png" alt=""></div>
+
+
+                                        <div class="ml-auto p-2 text-right">
+
+                                            <span>Scott Lyle, Zoetis</span><br>
+
+                                            <img class="img-star" src="./images/homepage/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item shadow rounded">
+                                <div class="top-clients-say d-flex flex-column">
+                                    <p>
+                                        <img src="./images/homepage/open.PNG" alt=""> I have been very impressed by IntelliNiche’s ability to adjust and execute quickly. It’s shocking, really.
+                                        <img src="./images/homepage/close.PNG" alt="">
+                                    </p>
+                                    <div class="d-flex mt-auto">
+                                        <div class="mt-auto p-2"><img src="./images/homepage/best-egg.png" alt=""></div>
+
+
+                                        <div class="ml-auto p-2 text-right">
+
+                                            <span>Kyle Leach, Best Egg</span><br>
+
+                                            <img class="img-star" src="./images/homepage/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item shadow rounded">
+                                <div class="top-clients-say d-flex flex-column">
+                                    <p>
+                                        <img src="./images/homepage/open.PNG" alt=""> Having worked with IntelliNiche on several projects, I've found their unique combination of hard-core engineering skills and solid business acumen to be a phenomenal
+                                        asset.
+                                        <img src="./images/homepage/close.PNG" alt="">
+                                    </p>
+                                    <div class="d-flex mt-auto">
+                                        <div class="mt-auto p-2"><img src="./images/homepage/SolarCity.png" alt="">
+                                        </div>
+
+
+                                        <div class="ml-auto p-2 text-right">
+
+                                            <span>John Witchel, SolarCity (former)</span><br>
+
+                                            <img class="img-star" src="./images/homepage/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item shadow rounded">
+                                <div class="top-clients-say d-flex flex-column">
+                                    <p>
+                                        <img src="./images/homepage/open.PNG" alt=""> I’ve worked with a lot of different teams, but IntelliNiche stands out because they really understand business and can collaborate with us - even challenge us - to build
+                                        better strategy and product.
+                                        <img src="./images/homepage/close.PNG" alt="">
+                                    </p>
+                                    <div class="d-flex mt-auto">
+                                        <div class="mt-auto p-2"><img src="./images/homepage/logo_vec_zoetis.png" alt=""></div>
+
+
+                                        <div class="ml-auto p-2 text-right">
+
+                                            <span>Scott Lyle, Zoetis</span><br>
+
+                                            <img class="img-star" src="./images/homepage/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item shadow rounded">
+                                <div class="top-clients-say d-flex flex-column">
+                                    <p>
+                                        <img src="./images/homepage/open.PNG" alt=""> I have been very impressed by IntelliNiche’s ability to adjust and execute quickly. It’s shocking, really.
+                                        <img src="./images/homepage/close.PNG" alt="">
+                                    </p>
+                                    <div class="d-flex mt-auto">
+                                        <div class="mt-auto p-2"><img src="./images/homepage/best-egg.png" alt=""></div>
+
+
+                                        <div class="ml-auto p-2 text-right">
+
+                                            <span>Kyle Leach, Best Egg</span><br>
+
+                                            <img class="img-star" src="./images/homepage/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- end client say -->
+    </div>
+    <!-- contact -->
+    <section class="homepage-contact text-center">
+
+        <div id="text-first-homepage-contact">
+            <h5>Interested in discussing a project?</h5>
+        </div>
+        <div id="text-second-homepage-contact">
+            <h5>Let’s build something great.</h5>
+        </div>
+        <div>
+            <a href="./Contact.html" class="btn">Get in Touch</a>
+        </div>
+    </section>
+    <!-- end contact -->
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="homepage-footer-logo"><img src="./images/footer/logo3.png" alt=""></div>
+                <div class="col-md-4 homepage-footer-contact">
+                    <div class="p-1">
+                        <h5>Contact Us</h5>
+                    </div>
+
+                    <div style="position: relative;"><span class="fa-stack"><i
+                                class="fa fa-square fa-stack-2x light"></i><i
+                                class="fas fa-mail-bulk fa-stack-1x"></i></span>
+                        <div class="footer-contact-detail">IntelliNiche@gmail.com</div>
+                    </div>
+                    <div style="position: relative;"><span class="fa-stack"><i
+                                class="fa fa-square fa-stack-2x light"></i><i
+                                class="fas fa-phone fa-stack-1x"></i></span>
+                        <div class="footer-contact-detail"> 0968141510</div>
+                    </div>
+                    <!--<div>-->
+                    <!--    <a href="https://www.facebook.com/" title="Facebook" target="_blank" rel=""><span-->
+                    <!--            class="fa-stack"><i class="fa fa-square fa-stack-2x light"></i><i-->
+                    <!--                class="fab fa-facebook text-white fa-stack-1x"></i></span></a>-->
+                    <!--</div>-->
+                    <div style="position: relative;"><span class="fa-stack"><i
+                                class="fa fa-square fa-stack-2x light"></i><i
+                                class="fas fa-map-marker-alt fa-stack-1x"></i></span>
+                        <div class="footer-contact-detail"> 142 Đong Phuoc - Phuoc Long - Nha Trang - Khanh Hoa</div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-md-4 homepage-footer-services">
+                    <h5>Services</h5>
+
+                    <div><a href="./service.html#section-fe"><i class="fas fa-chevron-right"></i>Frontend</a></div>
+                    <div><a href="./service.html#section-be"><i class="fas fa-chevron-right"></i>Backend</a></div>
+                    <div><a href="./service.html#section-mb"><i class="fas fa-chevron-right"></i>Mobile App</a></div>
+                    <div><a href="./service.html#section-ds"><i class="fas fa-chevron-right"></i>Product design</a></div>
+                    <div><a href="./service.html#section-ds"><i class="fas fa-chevron-right"></i>UX Design</a></div>
+                    <div><a href="./service.html#section-be"><i class="fas fa-chevron-right"></i>API Development Services</a></div>
+
+                </div>
+                <div class="col-md-4 homepage-footer-about">
+                    <h5>About Us</h5>
+                    <p>We’re a global team</p>
+                    <p>IntelliNiche is headquartered in the VietNam, with regional operations in Europe and Asia. Our primary focus is the agile development of cloud-connected web and mobile apps.</p>
+                    <!-- <div class="d-flex">
+                        <a href="https://www.facebook.com/" title="Facebook" target="_blank" rel=""><span
+                                class="fa-stack"><i class="fa fa-square fa-stack-2x light"></i><i
+                                    class="fab fa-facebook text-white fa-stack-1x"></i></span></a>
+
+                    </div> -->
+                </div>
+            </div>
+            <div class="text-center"><span>Copyright 2020 All rights reserved. Designed by <span
+                        class="text-red">IntelliNiche</span></span>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/homepage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="./boostrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./boostrap/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+
+</body>
+
+</html>

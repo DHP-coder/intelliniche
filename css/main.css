@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: 'SVN-Kimberley';
+    src: url('../font/SVN-Kimberley.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Roboto', 'SVN-Kimberley', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 80px 0px;
+}
+
+
+/* Start format text color */
+
+.text-red {
+    color: #D40000;
+}
+
+.text-orange {
+    color: #FF3D00;
+}
+
+.text-white {
+    color: #FFF8F8;
+}
+
+.text-black {
+    color: #0F0F0F;
+}
+
+
+/* End format text color */
+
+
+/* Start format background color */
+
+.bg-red {
+    background-color: #D40000;
+}
+
+.bg-orange {
+    background-color: #FF3D00;
+}
+
+.bg-white {
+    background-color: #FFF8F8;
+}
+
+.bg-black {
+    background-color: #0F0F0F;
+}
+
+
+/* End format background color */
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: white!important;
+}
+
+a {
+    text-decoration: none;
+    color: #848484;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #848484;
+}
+
+
+/* Start margin */
+
+.mb-6 {
+    margin-bottom: 5rem;
+}
+
+
+/* End margin */

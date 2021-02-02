@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="./images/IntelliNiche_logo.png" />
+    <title>Contact - IntelliNiche</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./boostrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top shadow " style="background-color: white;">
+        <a href="./index.html" class="navbar-brand" style="display: contents;"><img class="logo" src="./images/homepage/logo-black.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+                <i class="fas fa-bars"></i>
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="./service.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <!-- <li class="nav-item">
+            <a class="nav-link" href="./blog.html">Blog</a>
+        </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./Careers.html">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Contact.html">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- end menu -->
+    <section class="top">
+        <div class="container" style="margin-bottom: 100px; ">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 " style="margin-top: 100px;">
+                    <h3><b>Contact</b></h3>
+                    <!--<p>IntelliNiche is headquartered in the VietNam, with regional operations in Europe and Asia. Our primary focus is the agile development of cloud-connected web and mobile apps.-->
+                    <!--</p>-->
+                </div>
+
+
+
+                <div class="col-xs-12 col-md-6">
+                    <div class="img-contact">
+                        <img src="./images/contact/contact1.PNG" alt="Contact us" class="img-thumbnail" style="border: none ;">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-6 col-md-6 col-sm-6">
+                    <h3><b>What can we build for you?</b></h3>
+                    <h3>Drop us a message</h3>
+                    <div style="margin-top: 20%; margin-bottom: 20%;">
+                        <img class="img-contact-first" src="./images/contact/2710476.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-6 col-md-6 col-sm-6">
+                    <form class="main_form" action="" method="post" onsubmit="return false">
+                        <div class="col-xs-6 col-lg-6 col-md-6 col-sm-6 " style="min-width: 100% ; ">
+                            <p style="color: #D40000; font-size: 120%;"><i class="fa fa-user" aria-hidden="true"></i> Fullname<span style="color:  #D40000;"> *</span></p>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="usr" name="name" placeholder="Enter your name">
+                                <small id="nameE"></small>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-lg-6 col-md-6 col-sm-6" style="min-width: 100%; ">
+                            <p style=" color: #D40000; font-size: 120%; "><i class=" fas fa-phone-alt "></i> Phone <span style=" color: #D40000; "> *</span>
+                            </p>
+                            <div class=" form-group ">
+
+                                <input type=" text " class=" form-control " id=" usr " name="phone" placeholder="Enter your phone number">
+                                <small id="phoneE"></small>
+                            </div>
+                        </div>
+                        <div class=" col-xs-12 col-lg-6 col-md-6 col-sm-6 " style=" min-width: 100%; ">
+                            <p style="color: #D40000; font-size: 120%;"><i class="fa fa-envelope" aria-hidden="true"></i> Email
+                                <span style="color:  #D40000;"> *</span>
+                            </p>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="usr" name="email" placeholder="Enter your email">
+                                <small id="emailE"></small>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-12 col-lg-6 col-md-6 col-sm-6" style="min-width: 100%; ">
+                            <p style=" color: #D40000; font-size: 120%; "><i class=" fas fa-map-marker-alt "></i> Address<span style=" color: #D40000; "> *</span></p>
+                            <div class=" form-group ">
+                                <input type=" text " class=" form-control " id=" usr " name="address" placeholder="Enter your address">
+                                <small id="addressE"></small>
+                            </div>
+                        </div>
+                        <div class=" col-xs-12 col-lg-6 col-md-6 col-sm-6 " style=" min-width: 100%; ">
+                            <p style="color: #D40000; font-size: 120%;"><i class="fa fa-question" aria-hidden="true"></i> How can we help?<span style="color:  #D40000;"> *</span>
+                            </p>
+                            <textarea class="textarea form-control" name="Message" rows="3" style="height: 100px;" placeholder="Raise your problem"></textarea>
+                            <small id="messageE"></small>
+
+                        </div>
+
+                        <div class="col-xs-12 col-lg-6 col-md-6 col-sm-6 " style="float: right; margin-top: 30px; margin-bottom: 40px;">
+                            <button type="submit" class="btn bg-red text-white rounded-pill" id="buttonsubmit" name="Submit" name="submit" style="float:right; color: #D40000; height: 40px; width: 130px;"><span
+                                    style=" color: white;">Submit</span></button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-xs-12 col-sm-6 col-lg-3 ">
+                    <div class="shadow p-2 mb-4 " style="height: 200px ">
+                        <i class="fas fa-phone-volume fa-2x text-red" id="iconcontacts "></i>
+                        <p><b>Call Us</b></p>
+                        <b>Phone:</b><em> +840813217609</em>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3 ">
+                    <div class="shadow p-2 mb-4 " style="height: 200px ">
+                        <i class="fas fa-comments fa-2x text-red" id="iconcontacts "></i>
+                        <p><b>Contact Us</b></p>
+                        
+                        <b>Email:</b><em> IntelliNiche@gmail.com</em>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3 ">
+                    <div class="shadow p-2 mb-4 " style="height: 200px ">
+                        <i class="fas fa-map-marked-alt fa-2x text-red" id="iconcontacts "></i>
+                        <p><b>Visit Us</b></p>
+                        <p><b>Address:</b> <em> 142 Đông Phước, Phước Long, Nha Trang</em></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3 ">
+                    <div class="shadow p-2 mb-4 " style="height: 200px ">
+                        <i class="fas fa-clock fa-2x text-red" id="iconcontacts "></i>
+                        <p><b>Working Hours Us</b></p>
+                        <b>Mon-Fri:</b> <em> 8h00 - 17h00</em><br>
+                        <b>Sat-Sun:</b> <em>Closed</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <!-- <section class="homepage-contact contact-section text-center ">
+
+        <div id="text-first-homepage-contact ">
+            <h5>Interested in discussing a project?</h5>
+        </div>
+        <div id="text-second-homepage-contact ">
+            <h5>Let’s build something great.</h5>
+        </div>
+        <div>
+            <a href="./Contact.html " class="btn ">Get in Touch</a>
+        </div>
+    </section> -->
+    <!-- end contact -->
+    <!-- footer -->
+    <footer>
+        <div class="container ">
+            <div class="row ">
+                <div class="homepage-footer-logo "><img src="./images/footer/logo3.png " alt=" "></div>
+                <div class="col-md-4 homepage-footer-contact ">
+                    <div class="p-1 ">
+                        <h5>Contact Us</h5>
+                    </div>
+
+                    <div style="position: relative; "><span class="fa-stack "><i
+                                class="fa fa-square fa-stack-2x light "></i><i
+                                class="fas fa-mail-bulk fa-stack-1x "></i></span>
+                        <div class="footer-contact-detail ">IntelliNiche@gmail.com</div>
+                    </div>
+                    <div style="position: relative; "><span class="fa-stack "><i
+                                class="fa fa-square fa-stack-2x light "></i><i
+                                class="fas fa-phone fa-stack-1x "></i></span>
+                        <div class="footer-contact-detail "> 0968141510</div>
+                    </div>
+                    <!--<div>-->
+                    <!--    <a href="https://www.facebook.com/" title="Facebook" target="_blank" rel=""><span-->
+                    <!--            class="fa-stack"><i class="fa fa-square fa-stack-2x light"></i><i-->
+                    <!--                class="fab fa-facebook text-white fa-stack-1x"></i></span></a>-->
+                    <!--</div>-->
+                    <div style="position: relative; "><span class="fa-stack "><i
+                                class="fa fa-square fa-stack-2x light "></i><i
+                                class="fas fa-map-marker-alt fa-stack-1x "></i></span>
+                        <div class="footer-contact-detail "> 142 Đong Phuoc - Phuoc Long - Nha Trang - Khanh Hoa</div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-md-4 homepage-footer-services ">
+                    <h5>Services</h5>
+
+                    <div><a href="./service.html#section-fe"><i class="fas fa-chevron-right"></i>Frontend</a></div>
+                    <div><a href="./service.html#section-be"><i class="fas fa-chevron-right"></i>Backend</a></div>
+                    <div><a href="./service.html#section-mb"><i class="fas fa-chevron-right"></i>Mobile App</a></div>
+                    <div><a href="./service.html#section-ds"><i class="fas fa-chevron-right"></i>Product design</a></div>
+                    <div><a href="./service.html#section-ds"><i class="fas fa-chevron-right"></i>UX Design</a></div>
+                    <div><a href="./service.html#section-be"><i class="fas fa-chevron-right"></i>API Development Services</a></div>
+
+                </div>
+                <div class="col-md-4 homepage-footer-about ">
+                    <h5>About Us</h5>
+                    <p>We’re a global team</p>
+                    <p>IntelliNiche is headquartered in the VietNam, with regional operations in Europe and Asia. Our primary focus is the agile development of cloud-connected web and mobile apps.</p>
+
+                </div>
+            </div>
+            <div class="text-center "><span>Copyright 2020 All rights reserved. Designed by <span
+                        class="text-red ">IntelliNiche</span></span>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
+    <script src="./boostrap/js/bootstrap.min.js "></script>
+    <script src="./js/contact.js "></script>
+    <!-- require contact form -->
+    <script>
+        function isName(name) {
+            return /^[a-zA-Z_ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s]+$/.test(name);
+        }
+
+        function isEmail(email) {
+            return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+        }
+
+        function isPhone(phone) {
+            return /^(0|\+84)(\s|\.)?((3[2-9])|(5[689])|(7[06-9])|(8[1-689])|(9[0-46-9]))(\d)(\s|\.)?(\d{3})(\s|\.)?(\d{3})$/.test(phone);
+        }
+
+        $('#buttonsubmit').click(function() {
+            var nameValue = $('input[name=name]').val();
+            var emailValue = $('input[name=email]').val();
+            var phoneValue = $('input[name=phone]').val();
+            var addressValue = $('input[name=address]').val();
+            var messageValue = $('textarea[name=Message]').val();
+
+            if (nameValue == '') {
+                $("#nameE").text("Fullname is required");
+                return false;
+            } else {
+                if (!isName(nameValue)) {
+                    $("#nameE").text("Fullname cannot contain number");
+                    return false;
+                } else {
+                    $("#nameE").text("");
+                }
+            }
+
+            if (phoneValue == '') {
+                $("#phoneE").text("Phone is required");
+                return false;
+            } else {
+                if (!isPhone(phoneValue)) {
+                    $("#phoneE").text("Please input correct phone format");
+                    return false;
+                } else {
+                    $("#phoneE").text("");
+                }
+            }
+
+            if (emailValue == '') {
+                $("#emailE").text("Email is required");
+                return false;
+            } else {
+                if (!isEmail(emailValue)) {
+                    $("#emailE").text("Please input correct email format");
+                    return false;
+                } else {
+                    $("#emailE").text("");
+                }
+            }
+
+            if (addressValue == '') {
+                $("#addressE").text("Address is required");
+                return false;
+            } else {
+                $("#addressE").text("");
+            }
+
+            if (messageValue == '') {
+                $("#messageE").text("Message is required");
+                return false;
+            } else {
+                $("#messageE").text("");
+            }
+
+            if (nameValue != "" && emailValue != "" && phoneValue != "" &&
+                addressValue != "" && messageValue != "") {
+                var form_data = new FormData();
+                form_data.append('name', nameValue);
+                form_data.append('phone', phoneValue);
+                form_data.append('email', emailValue);
+                form_data.append('address', addressValue);
+                form_data.append('message', messageValue);
+
+                $.ajax({
+                    url: "php/sendmail.php",
+                    type: "post",
+                    dataType: 'text',
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    data: form_data,
+                    success: function(data) {
+                        if (data == 1) {
+                            swal("Mail send successful");
+                        } else {
+                            swal(data);
+                        }
+                    },
+                    error: function(data) {
+                        swal(data);
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

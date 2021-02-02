@@ -1,0 +1,115 @@
+/* contact */
+
+section.homepage-contact {
+    background-image: url(../images/contact/Group\ 162.png);
+    color: #fff8f8;
+    background-position: center;
+    background-size: cover;
+}
+
+#text-first-homepage-contact h5 {
+    font-weight: 600;
+}
+
+#text-second-homepage-contact h5 {
+    font-weight: 300;
+}
+
+.homepage-contact a {
+    background-color: #fff8f8;
+    color: #0f0f0f;
+    border-radius: 25px;
+    font-size: 11px;
+    font-weight: 900;
+    width: 120px;
+}
+
+
+/* end contact */
+
+
+/* footer */
+
+footer {
+    background-color: #0f0f0f;
+    color: #848484;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+footer img {
+    width: 10%;
+}
+
+@media screen and (max-width: 767px) {
+    footer img {
+        width: 25%;
+    }
+}
+
+footer h5 {
+    font-family: "SVN-Kimberley";
+    color: #fff8f8;
+}
+
+.homepage-footer-contact .fa-stack-2x {
+    color: #d40000;
+}
+
+.homepage-footer-contact .fa-stack-1x {
+    color: #fff8f8;
+}
+
+.homepage-footer-services i {
+    margin-right: 10px;
+    color: #d40000;
+}
+
+.homepage-footer-about p {
+    padding-top: 0;
+}
+
+.homepage-footer-about span {
+    margin-right: 10px;
+}
+
+.homepage-footer-about .fa-square {
+    border-radius: 5px;
+    border: 1px solid #d40000;
+    background-color: #0f0f0f;
+    color: #0f0f0f;
+}
+
+.homepage-footer-about .fa-stack:hover .fa-square {
+    background-color: #d40000;
+    color: #d40000;
+}
+
+.homepage-footer-contact,
+.homepage-footer-logo,
+.homepage-footer-about,
+.homepage-footer-services {
+    margin-bottom: 20px;
+}
+.homepage-footer-logo{
+    padding-left: 10px;
+}
+.footer-contact-detail {
+    position: absolute;
+    top: 0;
+    left: 12%;
+}
+
+hr {
+    border-top: 2px solid rgba(0, 0, 0, .1);
+    background-color: #d40000;
+}
+
+@media screen and (width: 768px) {
+    .footer-contact-detail {
+        left: 18%;
+    }
+}
+
+
+/* end footer */

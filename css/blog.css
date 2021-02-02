@@ -1,0 +1,305 @@
+section {
+    padding: 100px 0px;
+}
+
+.logo {
+    width: 25%;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 2em!important;
+    font-weight: 500;
+    color: #0f0f0f;
+    font-size: 15px;
+    transition: box-shadow 600ms cubic-bezier(.33, .11, .02, .99), transform 600ms cubic-bezier(.33, .11, .02, .99);
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 3px solid #D40000;
+    color: #0f0f0f;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .1), 0 1px 6px rgba(0, 0, 0, .05), 0 8px 8px rgba(0, 0, 0, .1), 0 16px 16px rgba(0, 0, 0, .1), 8px 32px 32px rgba(0, 0, 0, .15), 8px 64px 64px rgba(0, 0, 0, .15);
+    transform: scale(1.05) translateY(-0.5rem);
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    border-top: 3px solid #D40000;
+}
+
+nav {
+    -webkit-transition: padding-top .3s, padding-bottom .3s;
+    -moz-transition: padding-top .3s, padding-bottom .3s;
+    transition: padding-top .3s, padding-bottom .3s;
+    border: none;
+}
+
+.shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFF8F8;
+}
+
+@media screen and (max-width:767px) {
+    .collapse {
+        background-color: #FFF8F8;
+    }
+    .collapse ul a {
+        color: #0f0f0f!important;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .logo {
+        width: 45%;
+    }
+}
+
+.navbar-toggler {
+    background-color: #0F0F0F;
+}
+
+.search-box {
+    display: inline-block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 4px 55px 4px 15px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    margin-top: 100px;
+}
+
+.search-box.hovered,
+.search-box:hover,
+.search-box:active {
+    border: 1px solid #aaa;
+}
+
+.search-box input[type=text] {
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    padding: 0;
+    background: transparent;
+}
+
+.search-box input[type=text]:hover,
+.search-box input[type=text]:focus,
+.search-box input[type=text]:active {
+    box-shadow: none;
+}
+
+.search-box .search-btn {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border: none;
+    font-size: 21px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.search-box .search-btn:hover {
+    color: #fff;
+    background-color: #ff0000;
+}
+
+div.category,
+.tag {
+    margin-top: 100px;
+    border-width: 2px;
+    border-style: solid;
+    width: 350px;
+    height: 270px;
+    border-radius: 8px;
+    border-color: rgb(170, 165, 165);
+}
+
+div.category-content {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.category-content p {
+    float: left;
+    width: 138px
+}
+
+div.newsletter {
+    text-align: center;
+    margin-top: 100px;
+    border-width: 2px;
+    border-style: solid;
+    width: 350px;
+    height: 530px;
+    border-radius: 8px;
+    border-color: rgb(170, 165, 165);
+}
+
+button#tag,
+div.Touch button {
+    border-radius: 16px;
+    border: none;
+    margin: 10px 10px;
+    font-size: 15px;
+}
+
+button#tag small {
+    font-size: 15px;
+}
+
+button#signup {
+    margin-top: 30px;
+    border-radius: 4px;
+    width: 250px;
+    height: 35px;
+}
+
+input#name,
+#email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+input#name,
+#email {
+    border: 1px solid #ccc;
+    background-color: rgb(243, 243, 243);
+}
+
+input#name {
+    margin-top: 30px;
+}
+
+input#email {
+    margin-top: 20px;
+}
+
+input#check {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+div.category h5 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div.tag h5,
+div.tag button#tag {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+div.newsletter-content {
+    margin: 20px 20px;
+}
+
+.post__title h5 {
+    margin-top: 15px;
+}
+
+.articles h5 {
+    float: left;
+    margin-right: 530px;
+}
+
+.articles {
+    margin-top: 50px;
+}
+
+.articles button {
+    border-radius: 8px;
+    border: none;
+    margin: 10px 10px;
+    font-size: 15px;
+}
+
+.pagination {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.pagination-content {
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #FF3D00;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+div.Touch {
+    text-align: center;
+    padding: 40px 50px;
+    background-color: #D40000;
+    height: 170px;
+}
+
+.Touch {
+    color: white;
+}
+
+small {
+    font-size: 11px;
+}
+
+.col-wrap {
+    display: table;
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+}
+
+.col {
+    display: table-cell;
+    padding: 1rem
+}
+
+.search-box {
+    box-shadow: 2px 2px 2px #c4bebe;
+}
+
+small#numbers {
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: rgb(177, 173, 173);
+}
+
+.blog {
+    margin-top: 150px;
+}
